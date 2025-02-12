@@ -18,5 +18,5 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 LazyData: true
-URL: https://github.com/JoleneSutton/get.gulf.public
+URL: https://github.com/JoleneSutton/get.gulf.public, https://jolenesutton.github.io/get.gulf.public/
 BugReports: https://github.com/JoleneSutton/get.gulf.public/issues
