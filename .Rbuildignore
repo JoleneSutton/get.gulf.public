@@ -8,3 +8,4 @@
 IGNORE/*
 ^\.github$
 builds/*
+.Rproj
