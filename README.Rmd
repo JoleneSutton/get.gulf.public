@@ -82,7 +82,7 @@ knitr::kable(tab3,row.names = FALSE)
   + Diel correction factors are only implemented for specific species, and only for years 1993 and onward. 
   + See `?get_catch`.
 
-### Correction factors to adjust night catches to be equivalent to day*.
+### Correction factors to adjust night catches to be equivalent to day.
 ```{r, echo = FALSE, eval=T}
 tab<-utils::read.csv("inst/extdata/diel.csv",  header=TRUE)
 tab<-tab[,c(2,4,6,9)]

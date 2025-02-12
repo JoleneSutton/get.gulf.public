@@ -109,7 +109,7 @@ Contact <jolene.sutton@dfo-mpo.gc.ca>
   only for years 1993 and onward.
 - See `?get_catch`.
 
-### Correction factors to adjust night catches to be equivalent to day\*.
+### Correction factors to adjust night catches to be equivalent to day.
 
 | Species | Diel correction | Restriction | Source |
 |:---|:---|:---|:---|
