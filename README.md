@@ -111,19 +111,175 @@ Contact <jolene.sutton@dfo-mpo.gc.ca>
 
 ### Correction factors to adjust night catches to be equivalent to day.
 
-| Species | Diel correction | Restriction | Source |
-|:---|:---|:---|:---|
-| American plaice | no correction necessary |  | Benoit and Swain 2003b |
-| Atlantic cod | no correction necessary |  | Benoit and Swain 2003b |
-| Atlantic halibut | 0.781 | none | Benoit and Swain 2003a |
-| Atlantic herring | -1.963 | none | Benoit and Swain 2003b |
-| Atlantic mackerel | -2.21 | none | Benoit and Swain 2003b |
-| Greenland halibut | no correction necessary |  | Benoit and Swain 2003a |
-| Redfish | no correction necessary |  | Benoit and Swain 2003a |
-| White hake | 5.307 - 0.271 \* L + 0.0030 \* L^2 | length-dependent | Benoit and Swain 2003b |
-| Winter flounder | no correction necessary |  | Benoit and Swain 2003a; Benoit and Swain 2003b |
-| Witch flounder | 0.2115 + 3.4729 \* exp(-0.0162 \* D) | depth-dependent | Benoit and Swain 2003b |
-| Yellowtail flounder | 0.047 + 15.305 \* exp(-0.120 \* L) | length-dependent | Benoit and Swain 2003b |
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+Species
+</th>
+<th style="text-align:left;">
+Diel correction
+</th>
+<th style="text-align:left;">
+Restriction
+</th>
+<th style="text-align:left;">
+Source
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+American plaice
+</td>
+<td style="text-align:left;">
+no correction necessary
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Benoit and Swain 2003b
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Atlantic cod
+</td>
+<td style="text-align:left;">
+no correction necessary
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Benoit and Swain 2003b
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Atlantic halibut
+</td>
+<td style="text-align:left;">
+0.781
+</td>
+<td style="text-align:left;">
+none
+</td>
+<td style="text-align:left;">
+Benoit and Swain 2003a
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Atlantic herring
+</td>
+<td style="text-align:left;">
+-1.963
+</td>
+<td style="text-align:left;">
+none
+</td>
+<td style="text-align:left;">
+Benoit and Swain 2003b
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Atlantic mackerel
+</td>
+<td style="text-align:left;">
+-2.21
+</td>
+<td style="text-align:left;">
+none
+</td>
+<td style="text-align:left;">
+Benoit and Swain 2003b
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Greenland halibut
+</td>
+<td style="text-align:left;">
+no correction necessary
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Benoit and Swain 2003a
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Redfish
+</td>
+<td style="text-align:left;">
+no correction necessary
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Benoit and Swain 2003a
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+White hake
+</td>
+<td style="text-align:left;">
+5.307 - 0.271 \* L + 0.0030 \* L^2
+</td>
+<td style="text-align:left;">
+length-dependent
+</td>
+<td style="text-align:left;">
+Benoit and Swain 2003b
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Winter flounder
+</td>
+<td style="text-align:left;">
+no correction necessary
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Benoit and Swain 2003a; Benoit and Swain 2003b
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Witch flounder
+</td>
+<td style="text-align:left;">
+0.2115 + 3.4729 \* exp(-0.0162 \* D)
+</td>
+<td style="text-align:left;">
+depth-dependent
+</td>
+<td style="text-align:left;">
+Benoit and Swain 2003b
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Yellowtail flounder
+</td>
+<td style="text-align:left;">
+0.047 + 15.305 \* exp(-0.120 \* L)
+</td>
+<td style="text-align:left;">
+length-dependent
+</td>
+<td style="text-align:left;">
+Benoit and Swain 2003b
+</td>
+</tr>
+</tbody>
+</table>
 
 # Commercial Landings
 

@@ -89,7 +89,7 @@ tab<-tab[,c(2,4,6,9)]
 names(tab)<-c('Species','Diel correction',
               'Restriction','Source')
 tab<-tab[order(tab$Species),]
-knitr::kable(tab,row.names = FALSE)
+knitr::kable(tab,row.names = FALSE,format='html')
 ```
 
 
