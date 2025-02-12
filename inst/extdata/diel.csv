@@ -1,0 +1,12 @@
+species.rv.code,species.english,vessel,display.readme,cf,cf.restriction,cf.range,cf.note,cf.source
+10,Atlantic cod,N,no correction necessary,,,,,Benoit and Swain 2003b
+12,White hake,N,5.307 - 0.271 * L + 0.0030 * L^2,5.307 - 0.271 * L + 0.0030 * L^2,length-dependent,15;65,Lengths 15-65,Benoit and Swain 2003b
+23,Redfish,N,no correction necessary,,,,,Benoit and Swain 2003a
+30,Atlantic halibut,N,0.781,0.781,none,,,Benoit and Swain 2003a
+31,Greenland halibut,N,no correction necessary,,,,,Benoit and Swain 2003a
+40,American plaice,N,no correction necessary,,,,,Benoit and Swain 2003b
+41,Witch flounder,N,0.2115 + 3.4729 * exp(-0.0162 * D),0.2115 + 3.4729 * exp(-0.0162 * D),depth-dependent,50;500,Depths 50-500,Benoit and Swain 2003b
+42,Yellowtail flounder,N,0.047 + 15.305 * exp(-0.120 * L),0.047 + 15.305 * exp(-0.120 * L),length-dependent,12;36,Lengths 12-36,Benoit and Swain 2003b
+43,Winter flounder,N,no correction necessary,,,,,Benoit and Swain 2003a; Benoit and Swain 2003b
+60,Atlantic herring,N,-1.963,-1.963,none,,,Benoit and Swain 2003b
+70,Atlantic mackerel,N,-2.21,-2.21,none,,,Benoit and Swain 2003b

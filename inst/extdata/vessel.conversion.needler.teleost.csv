@@ -1,0 +1,12 @@
+species.rv.code,species.english,vessel.cf,vessel.cf.note
+10,Atlantic cod,,no correction necessary
+12,White hake,1.32,divide Needler by 1.32 to obtain Teleost equivalents
+23,Redfish,,no correction necessary
+30,Atlantic halibut,,no correction necessary
+31,Greenland halibut,,no correction necessary
+40,American plaice,1.15,divide Needler by 1.15 to obtain Teleost equivalents
+41,Witch flounder,,no correction necessary
+42,Yellowtail flounder,,no correction necessary
+43,Winter flounder,,no correction necessary
+60,Atlantic herring,1.52,divide Needler by 1.52 to obtain Teleost equivalents
+70,Atlantic mackerel,,no correction necessary
