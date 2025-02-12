@@ -24,7 +24,6 @@ R functions to retrieve DFO data housed internally and often associated with pac
 # Availability
 
   * A fully functional **get.gulf** is available to DFO Gulf Fisheries staff who have the in-house `gulf` package as well as access to `\\ENT.dfo-mpo.ca\dfo-mpo\GROUP\GLF\Regional_Shares\AquaRes_Common\FishFramSci`.
-  * Package source code is available within this repository, but the only data stored here are descriptive metadata.
 
 # Installation
 
