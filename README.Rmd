@@ -69,5 +69,7 @@ Contact jolene.sutton@dfo-mpo.gc.ca
 
 <img src="man/figures/tab03.png" align="center" height="425" alt="" />
 
+![tab3](/man/figures/tab03.png)
+
 # Commercial Landings
 Commercial landings data go back to 1985. **get.gulf** retrieves data housed at DFO Quebec Region. See `?get_ziff`.

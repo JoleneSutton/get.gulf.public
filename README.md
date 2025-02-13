@@ -87,6 +87,11 @@ Contact <jolene.sutton@dfo-mpo.gc.ca>
 
 <img src="man/figures/tab03.png" align="center" height="425" alt="" />
 
+<figure>
+<img src="/man/figures/tab03.png" alt="tab3" />
+<figcaption aria-hidden="true">tab3</figcaption>
+</figure>
+
 # Commercial Landings
 
 Commercial landings data go back to 1985. **get.gulf** retrieves data
