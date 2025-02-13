@@ -1,6 +1,6 @@
-#' Get species catch number and catch weight per tow from sGSL September surveys
+#' Get species catches per tow from sGSL September surveys
 #'
-#' Uses set cards and length cards.
+#' Uses set cards and length cards. Returns catch numbers and catch weights (kg).
 #' @param years Which year(s) to return. Current minimum to apply all corrections is 1993.
 #' @param species Which RV species code. Currently limited to certain species if applying vessel and diel corrections (10,12,23,40,41,42,43,60,70).
 #' @param adj.ratio Adjust for sampling ratio? Default is TRUE.
@@ -14,7 +14,7 @@
 #' @examples
 #' #library(gulf)
 #' #df<-get_catch(42,2022:2023)
-#' #df<-get_catch(42,2000:2023)
+#' #df<-get_catch(42,1991:2023)
 #' @export
 get_catch<-function(species,
                     years,

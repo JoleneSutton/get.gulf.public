@@ -1,4 +1,4 @@
-#' Return raw commercial landings data from a ZIFF (Zonal Interchange Format File)
+#' Get raw commercial landings data from a ZIFF (Zonal Interchange Format File)
 #'
 #' Retrieves data housed at DFO Quebec Region
 #'
