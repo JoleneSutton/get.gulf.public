@@ -54,10 +54,8 @@ Contact <jolene.sutton@dfo-mpo.gc.ca>
   Templeman, **get.gulf** applies vessel correction factors described in
   [Benoît
   2006](https://www.dfo-mpo.gc.ca/csas-sccs/publications/resdocs-docrech/2006/2006_008-eng.htm).
-- To adjust cathes from the CCGS Capt. Jacques Cartier, **get.gulf**
-  applies vessel correction factors described in [Benoît
-  2006](https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/331162.pdf),
-  and [Benoît and Yin,
+- To adjust catches from the CCGS Capt. Jacques Cartier, **get.gulf**
+  applies vessel correction factors described in [Benoît and Yin,
   2023](https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/41220614.pdf).
 - See `?get_catch`
 
