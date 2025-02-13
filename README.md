@@ -61,6 +61,8 @@ Contact <jolene.sutton@dfo-mpo.gc.ca>
 
 ### Correction factors to adjust catches by the CCGS Alfred Needler and the CCGS Wilfred Templeman to be equivalent to the CCGS Teleost.
 
+<img src="man/figures/ltab01.png" align="center" height="200" alt="" />
+
 | Species             | Vessel correction |
 |:--------------------|------------------:|
 | American plaice     |              1.15 |

@@ -50,6 +50,9 @@ Contact jolene.sutton@dfo-mpo.gc.ca
   + See `?get_catch`
 
 ### Correction factors to adjust catches by the CCGS Alfred Needler and the CCGS Wilfred Templeman to be equivalent to the CCGS Teleost.
+
+<img src="man/figures/ltab01.png" align="center" height="200" alt="" />
+
 ```{r, echo = FALSE, eval=T}
 tab<-utils::read.csv("inst/extdata/vessel.conversion.needler.teleost.csv",  header=TRUE)
 tab<-tab[,c(2,3)]
