@@ -85,7 +85,7 @@ Contact <jolene.sutton@dfo-mpo.gc.ca>
 
 ### Correction factors to adjust night catches to be equivalent to day.
 
-<img src="man/figures/tab03.png" align="center" height="400" alt="" />
+<img src="man/figures/tab03.png" align="center" height="425" alt="" />
 
 # Commercial Landings
 
