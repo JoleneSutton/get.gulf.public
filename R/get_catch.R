@@ -1,8 +1,8 @@
 #' Get species catch number and catch weight per tow from sGSL September surveys
 #'
 #' Uses set cards and length cards.
-#' @param years Which year(s) to return. Current minimum to apply all conversions is 2004.
-#' @param species Which RV species code. Currently limited certain species if applying diel and vessel conversions (10,12,23,40,41,42,43,60,70).
+#' @param years Which year(s) to return. Current minimum to apply all corrections is 1993.
+#' @param species Which RV species code. Currently limited to certain species if applying vessel and diel corrections (10,12,23,40,41,42,43,60,70).
 #' @param adj.ratio Adjust for sampling ratio? Default is TRUE.
 #' @param adj.distance Adjust for target tow distance? Default is TRUE.
 #' @param adj.vessel Adjust for vessel effects? Default is TRUE.
