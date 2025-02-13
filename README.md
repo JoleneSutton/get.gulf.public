@@ -61,11 +61,11 @@ Contact <jolene.sutton@dfo-mpo.gc.ca>
 
 ### Correction factors to adjust catches by the CCGS Alfred Needler and the CCGS Wilfred Templeman to be equivalent to the CCGS Teleost.
 
-<img src="man/figures/tab01.png" align="center" height="500" alt="" />
+<img src="man/figures/tab01.png" align="center" height="400" alt="" />
 
 ### Correction factors to adjust catches by the CCGS Capt. Jacques Cartier to be equivalent to the CCGS Teleost.
 
-<img src="man/figures/tab02.png" align="center" height="500" alt="" />
+<img src="man/figures/tab02.png" align="center" height="400" alt="" />
 
 ## Diel correction factors
 
@@ -85,7 +85,7 @@ Contact <jolene.sutton@dfo-mpo.gc.ca>
 
 ### Correction factors to adjust night catches to be equivalent to day.
 
-<img src="man/figures/tab03.png" align="center" height="500" alt="" />
+<img src="man/figures/tab03.png" align="center" height="400" alt="" />
 
 # Commercial Landings
 
