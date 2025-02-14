@@ -19,7 +19,7 @@ downstream processing and quality control prior to analysis.
   staff who have the in-house `gulf` package as well as access to
   `\\ENT.dfo-mpo.ca\dfo-mpo\GROUP\GLF\Regional_Shares\AquaRes_Common\FishFramSci`.
 
-# Installation
+# Access
 
 Contact <jolene.sutton@dfo-mpo.gc.ca>
 
