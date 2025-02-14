@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_catch.R
 \name{get_catch}
 \alias{get_catch}
-\title{Get species catch number and catch weight per tow from sGSL September surveys}
+\title{Get species catches per tow from sGSL September surveys}
 \usage{
 get_catch(
   species,
@@ -16,9 +16,9 @@ get_catch(
 )
 }
 \arguments{
-\item{species}{Which RV species code. Currently limited certain species if applying diel and vessel conversions (10,12,23,40,41,42,43,60,70).}
+\item{species}{Which RV species code. Currently limited to certain species if applying vessel and diel corrections (10,12,23,40,41,42,43,60,70).}
 
-\item{years}{Which year(s) to return. Current minimum to apply all conversions is 2004.}
+\item{years}{Which year(s) to return. Current minimum to apply all corrections is 1993.}
 
 \item{adj.ratio}{Adjust for sampling ratio? Default is TRUE.}
 
@@ -36,12 +36,12 @@ get_catch(
 A data frame
 }
 \description{
-Uses set cards and length cards.
+Uses set cards and length cards. Returns catch numbers and catch weights (kg).
 }
 \examples{
 #library(gulf)
 #df<-get_catch(42,2022:2023)
-#df<-get_catch(42,2000:2023)
+#df<-get_catch(42,1991:2023)
 }
 \seealso{
 gulf::read.surveys(survey = "rv")), gulf::experiment.str()

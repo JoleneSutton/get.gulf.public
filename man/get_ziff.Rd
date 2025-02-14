@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_ziff.R
 \name{get_ziff}
 \alias{get_ziff}
-\title{Return raw commercial landings data from a ZIFF (Zonal Interchange Format File)}
+\title{Get raw commercial landings data from a ZIFF (Zonal Interchange Format File)}
 \usage{
 get_ziff(
   years,
