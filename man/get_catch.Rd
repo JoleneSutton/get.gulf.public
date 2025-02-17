@@ -18,9 +18,9 @@ get_catch(
 )
 }
 \arguments{
-\item{species}{Which RV species code? Currently limited certain species if applying diel and vessel conversions (10,12,23,40,41,42,43,60,70).}
+\item{species}{Which RV species code? Currently limited to certain species if applying diel and vessel conversions (10,12,23,40,41,42,43,60,70).}
 
-\item{years}{Which year(s) to return? Current minimum to apply all conversions is 2004.}
+\item{years}{Which year(s) to return? Current minimum to apply all conversions is 1993.}
 
 \item{adj.ratio}{Adjust for sampling ratio? Default is TRUE.}
 
