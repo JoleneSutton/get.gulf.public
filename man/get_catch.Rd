@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_catch.R
 \name{get_catch}
 \alias{get_catch}
-\title{Get species catches per tow from sGSL September surveys}
+\title{Get species catch number and catch weight per tow from sGSL September surveys}
 \usage{
 get_catch(
   species,
@@ -13,13 +13,14 @@ get_catch(
   adj.diel = TRUE,
   experiment.code = c(1, 5),
   cutoff.length = NULL,
-  adj.repeat.sets = TRUE
+  adj.repeat.sets = TRUE,
+  pool.sexes = TRUE
 )
 }
 \arguments{
-\item{species}{Which RV species code. Currently limited to certain species if applying vessel and diel corrections (10,12,23,40,41,42,43,60,70).}
+\item{species}{Which RV species code? Currently limited certain species if applying diel and vessel conversions (10,12,23,40,41,42,43,60,70).}
 
-\item{years}{Which year(s) to return. Current minimum to apply all corrections is 1993.}
+\item{years}{Which year(s) to return? Current minimum to apply all conversions is 2004.}
 
 \item{adj.ratio}{Adjust for sampling ratio? Default is TRUE.}
 
@@ -29,22 +30,26 @@ get_catch(
 
 \item{adj.diel}{Adjust for diel effects? Default is TRUE. Note that diel adjustments are only made after vessel adjustments to Teleost.}
 
-\item{experiment.code}{Restrict tow experiment type. See gulf::experiment.str(). Default is c(1,5) ("stratified random survey set", "comparative fishing experiment").}
+\item{experiment.code}{Restrict tow experiment type? See gulf::experiment.str(). Default is c(1,5) ("stratified random survey set", "comparative fishing experiment").}
 
-\item{cutoff.length}{Include estimates below and above a cutoff length. Output columns labeled "small" are estimates below the cutoff length. Output columns labeled "big" are estimates at and above the cutoff length. Default is NULL.}
+\item{cutoff.length}{Include estimates below and above a cutoff length? Output columns labeled "small" are estimates below the cutoff length. Output columns labeled "big" are estimates at and above the cutoff length. Default is NULL}
 
-\item{adj.repeat.sets}{Adjust for repeat sets? Identifies repeat sets (e.g., during comparative tows), and retains only the first set. First sets are retained in order to preserve tow information (e.g., spatial coordinates, depth), which is different from the \code{gulf} package's 'collapse.repeats' function. Experiment codes other than "1" and "5" will be removed when adjusting paired sets. See ?gulf::experiment.str() for details. Default is TRUE.}
+\item{adj.repeat.sets}{Adjust for repeat sets? Identifies repeat sets (e.g., during comparative tows), and retains only the first set. First sets are retained in order to preserve tow information (e.g., spatial coordinates, depth), which is different from the \code{gulf} package's 'collapse.repeats' function. Experiment codes other than "1" and "5" will be removed when adjusting paired sets. See ?gulf::experiment.str() for details. Default is TRUE}
+
+\item{pool.sexes}{Pool (combine) sexes in the final output? Default is TRUE.}
 }
 \value{
 A data frame
 }
 \description{
-Uses set cards and length cards. Returns catch numbers and catch weights (kg).
+Uses set cards and length cards.
 }
 \examples{
 #library(gulf)
 #df<-get_catch(42,2022:2023)
-#df<-get_catch(42,1991:2023)
+#df<-get_catch(42,1990:2023)
+#df<-get_catch(42,2022:2023,pool.sexes = FALSE)
+#df<-get_catch(42,2022:2023,pool.sexes = FALSE,cutoff.length=25)
 }
 \seealso{
 gulf::read.surveys(survey = "rv")), gulf::experiment.str()
