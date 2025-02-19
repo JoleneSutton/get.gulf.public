@@ -14,7 +14,8 @@ get_catch(
   experiment.code = c(1, 5),
   cutoff.length = NULL,
   adj.repeat.sets = TRUE,
-  pool.sexes = TRUE
+  pool.sexes = TRUE,
+  return.lengths = FALSE
 )
 }
 \arguments{
@@ -37,9 +38,11 @@ get_catch(
 \item{adj.repeat.sets}{Adjust for repeat sets? Identifies repeat sets (e.g., during comparative tows), and retains only the first set. First sets are retained in order to preserve tow information (e.g., spatial coordinates, depth), which is different from the \code{gulf} package's 'collapse.repeats' function. Experiment codes other than "1" and "5" will be removed when adjusting paired sets. See ?gulf::experiment.str() for details. Default is TRUE}
 
 \item{pool.sexes}{Pool (combine) sexes in the final output? Default is TRUE.}
+
+\item{return.lengths}{Return counts at length? If TRUE, a list of 3 data frames is returned. Default is FALSE.}
 }
 \value{
-A data frame
+A data frame unless return.lengths = TRUE, in which case a list of 3 data frames is returned.
 }
 \description{
 Uses set cards and length cards.
@@ -47,9 +50,13 @@ Uses set cards and length cards.
 \examples{
 #library(gulf)
 #df<-get_catch(42,2022:2023)
+#class(df)
 #df<-get_catch(42,1990:2023)
 #df<-get_catch(42,2022:2023,pool.sexes = FALSE)
 #df<-get_catch(42,2022:2023,pool.sexes = FALSE,cutoff.length=25)
+#df<-get_catch(42,2020:2023,return.lengths=TRUE)
+#class(df)
+#names(df)
 }
 \seealso{
 gulf::read.surveys(survey = "rv")), gulf::experiment.str()

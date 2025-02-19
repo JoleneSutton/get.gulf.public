@@ -11,14 +11,19 @@
 #' @param cutoff.length Include estimates below and above a cutoff length? Output columns labeled "small" are estimates below the cutoff length. Output columns labeled "big" are estimates at and above the cutoff length. Default is NULL
 #' @param adj.repeat.sets Adjust for repeat sets? Identifies repeat sets (e.g., during comparative tows), and retains only the first set. First sets are retained in order to preserve tow information (e.g., spatial coordinates, depth), which is different from the `gulf` package's 'collapse.repeats' function. Experiment codes other than "1" and "5" will be removed when adjusting paired sets. See ?gulf::experiment.str() for details. Default is TRUE
 #' @param pool.sexes Pool (combine) sexes in the final output? Default is TRUE.
-#' @returns A data frame
+#' @param return.lengths Return counts at length? If TRUE, a list of 3 data frames is returned. Default is FALSE.
+#' @returns A data frame unless return.lengths = TRUE, in which case a list of 3 data frames is returned.
 #' @seealso gulf::read.surveys(survey = "rv")), gulf::experiment.str()
 #' @examples
 #' #library(gulf)
 #' #df<-get_catch(42,2022:2023)
+#' #class(df)
 #' #df<-get_catch(42,1990:2023)
 #' #df<-get_catch(42,2022:2023,pool.sexes = FALSE)
 #' #df<-get_catch(42,2022:2023,pool.sexes = FALSE,cutoff.length=25)
+#' #df<-get_catch(42,2020:2023,return.lengths=TRUE)
+#' #class(df)
+#' #names(df)
 #' @export
 get_catch<-function(species,
                     years,
@@ -29,4 +34,5 @@ get_catch<-function(species,
                     experiment.code = c(1,5),
                     cutoff.length = NULL,
                     adj.repeat.sets = TRUE,
-                    pool.sexes= TRUE){}
+                    pool.sexes= TRUE,
+                    return.lengths = FALSE){}
